@@ -1,83 +1,37 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Begin Inspectlet Embed Code -->
-    <script type="text/javascript" id="inspectletjs">
-    window.__insp = window.__insp || [];
-    __insp.push(['wid', 566974337]);
-    (function() {
-    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
-    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
-    })();
-    </script>
-    <!-- End Inspectlet Embed Code -->
-    <meta name="google-site-verification" content="tScxwQWZyEpBdRVDjeZ1P6EqawlBVeBC4rjG8X9VU9o" />
-    <meta charset="utf-8">   
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="Description" CONTENT="Muhammed Basil, A passionate programmer, Dad, Husband, Son, JCI">
-    <meta name="keywords" content="Muhammed,Basil,Programmer,Dad,Husband,Son,Developer,Software,Engineer,JavaScript,Frontend,Mobile,Hybrid,Application,Web">
-    <title>Muhammed Basil</title>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+title: Home
+---
 
-  </head>
-  <body style="font-family: Verdana;">
-      <!-- Google Tag Manager -->
-      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WT43TH"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-WT43TH');</script>
-      <!-- End Google Tag Manager -->
-  <div style="
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 30%;
-">
-      <div style="padding: 20px 100px;">
-        <h3>I am Muhammed Basil.</h3>
-Father of two angels, a software professional, a big batman fan.
-        There are a lot of things I am passionate about. The world around us is teaching a lot of things in every moment.
-        And there are a lot of things we see and forget. I am always amazed to see others sharing their knowledge and expressing it in a many ways.
-        And was shy about sharing it until I read the book *Show your work*.
-        I have started building the habit of *reading* very recently ( Still trying ).
-        And this website is one of the outcome of reading the great book *show your work*. And the main take away from that book is to focus on the process and share it with others.
-        This will be a repository where I will be capturing my thoughts experiences and some of the work I do which I believe some may find useful.
-        I have created some websites for myself and never used it. This is the first time I am using a domain name other than my official name.
-        I like to watch series, movies and documentaries about spy thrillers mostly.
-        Though I watch and appreciate any good content.<br/><br/>
-        <i>Disclaimer: This website will contain the content strictly from my perspective which I built gradulaly by reading, listening, watching, observing and sensing, etc.
-          And later that might change as well based on new learning and experiences.</i></div>
-        
-  <a href="https://www.linkedin.com/in/muhammed-basil-377b5218" target="_blank"
-  category="HOME_SOCIAL_LINK"
-  label="LINKEDIN"
-  event="CLICK"
-  action="CLICK">
-  <img src="images/linkedin_logo_in_nav_44x36.png" style="width:44px;">
-        </a>
-  <a href="https://twitter.com/muhammedbasilsk" target="_blank"
-  category="HOME_SOCIAL_LINK"
-  label="TWITTER"
-  event="CLICK"
-  action="CLICK">
-          <img src="images/twitter-128.png" style="width:36px;">
-        </a>
-    <br/>
-        <br/>
-    <p>
-       I am real when it is useful!
-    </p>
-      </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
