@@ -2,7 +2,8 @@
 title:               Muhammed Basil
 tagline:             'Software Professional'
 description:         'A Technical enthusiast'
-url:                 https://beardedbatmanis.online
+# url:                 https://beardedbatmanis.online
+url:                 http://127.0.0.1:4000
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -14,8 +15,8 @@ author:
   email:             muhammedbasilsk@gmail.com
 
 # Gems
-plugins:
-  - jekyll-paginate
+# plugins:
+#   - jekyll-paginate
 
 # Custom vars
 version:             1.1.0
