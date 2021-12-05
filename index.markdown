@@ -11,7 +11,7 @@ title: Home
 <h3>A jack of all trades is a master of none, but oftentimes better than a master of one.</h3>
 
 Father of two angels, a software professional, and a big batman fan.
-Entrepreneur ( Flavor labs ), Inline skater, Licenced amatuer radio operator ( VU3FMO ), Passionate ( amatuer ) photographer ( camera: Sony Alpha 6000 ), JCI member ( Former JCI kappad president, now a JCI Calicut city member), Trainer, Mentor
+Entrepreneur ( Flavor labs ), Inline skater, Licenced amatuer radio operator ( VU3FMO ), Passionate ( amatuer ) photographer ( camera: Sony Alpha 6000 [Instagram page](https://www.instagram.com/beardedbatman.clicks/) ), JCI member ( Former JCI kappad president, now a JCI Calicut city member), Trainer, Mentor
 
 Day to day life, I get to see and learn from a lot of people, people from around the world. Since they were so kind to spend their precious time (v/b)logging it I was able to learn many things and save a ton of time.
 
