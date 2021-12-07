@@ -3,29 +3,37 @@ layout: post
 title: Getting started with web
 ---
 
-If we have the right guindance and mentoring we can hack time. ( Benjamin P frankline - Slipe stram time hacking)
-I experienced this always when learning new things. There is always a hard, slow ways to learn and fast ways to learn.
-Both has its own advantages though the advantage of fast learning is that we can utilize the time explore more with the time we saved.
+If we have the right guindance and mentoring we can hack time. ( Benjamin p hardy - [Slipstream time hacking](https://www.amazon.in/dp/B019MZ6BRO))
+With the right guidance we can learn things much faster.
 
-Here are some awesome tutorials I came across and I believe suggesting to the people can help them save some time.
-I came across a video where it discusses how elon musk learn vast variety of things, is a tree structure. Build the core first then figure out branches.
+I am very fortunate to get mentored and trained well through out my career.
+I am sharing some information which helped me learn web and related technologies.
+Whether you want to be a programmer, a hacker, or just exploring the web technologies, these are the suggestions based on my experience.
 
-The same principle can be applied in learning web technologies. Understand what is web, how it works first, then understanding different parts of the web technlogies and programs. Directly jumping to programming and building a website can keep us in a confused state for a very long period of time. And yes, eventually it may all make sense. Though having some understanding about the system from the beginning would defnitely help us learn and move fast.
+Directly jumping to programming and building a website can keep us in a confused state for a very long period of time.
+Yes, eventually it will all make sense. Though having some understanding about the system from the beginning would defnitely help us learn faster.
 
-Whether you want to be a programmer, a hacker, or just exploring the web technologies, these are the suggestion from my end based on my experience. Here I will share the path I took to build stronger foundation for the knowldge and helped me learn further.
+Below are the topics and tutorials to learn.
 
-Feel freel to correct me if I am wrong, and the idea is to help `others` to learn, so if you know a better ways and sources, please let me know as well. You can reachout to me via linkedIn or twitter.
+References:
+1. How the web works?  
+[How internet works - Aaron](https://www.youtube.com/watch?v=7_LPdttKXPc)  
+[How web works -  Academind](https://www.youtube.com/watch?v=hJHvdBlSxug)  
+[How web works, Detailed - freeCodeCamp.org](https://www.youtube.com/watch?v=zN8YNNHcaZc)  
 
-I have learned the fundamentals in a proper way when I first started career as a software engineer. Until then I had some understanding on the concepts but not thorough. And it sometime to unlearn and learn it in the right way.
+2. What is HTML, CSS, Javascript?  
+[HTML, CSS, JavaScript Explained - Danielle Thé](https://www.youtube.com/watch?v=gT0Lh1eYk78)  
 
-Below are some of the topics that I think would be good to learn to build the foundational knowledge in web and related technology.
+3. Learn HTML  
+[HTML Full Course - Build a Website Tutorial - freeCodeCamp.org](https://www.youtube.com/watch?v=pQN-pnXPaVg)  
 
-1. How the web works?
-2. What is HTML, CSS, Javascript?
-3. Learn HTML
-4. Learn CSS
-5. Learn Javascript
+4. Learn CSS  
+[CSS Full course - freeCodeCamp.org](https://www.youtube.com/watch?v=1Rs2ND1ryYc)  
 
-What next?
+5. Learn Javascript  
+[JavaScript: Understanding the Weird Parts - Tony Alicea](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)  
+[12 hour detailed course - Worth every penny](https://www.udemy.com/course/understand-javascript/)  
 
-This document will get nourished slowly, thanks to the github pages, I can keep undating the content without worrying the revisioning.
+There are many other good tutorials also you can find.
+
+I will keep improving the articles I write here. This website is for improving myself by helping others.
