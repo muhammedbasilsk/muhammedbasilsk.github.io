@@ -2,8 +2,8 @@
 title:               Muhammed Basil
 tagline:             'Software Professional'
 description:         'Licenced Amature radio operator - VU3FMO'
-# url:                 https://beardedbatmanis.online
-url:                 http://127.0.0.1:4000
+url:                 https://beardedbatmanis.online
+  #url:                 http://127.0.0.1:4000
 baseurl:             ''
 paginate:            5
 permalink:           pretty
