@@ -11,7 +11,6 @@ title: Home
 
 Software professional: *Architect, design, and build*  
 Enterpreneur: Director, Flavorlabs [Assal Malabari, Kodakara](https://assalmalabari.com)  
-
 Amatuer radio operator: *VU3FMO*  
 Photography: [beardedbatman.clicks](https://www.instagram.com/beardedbatman.clicks/)  
 Inline skater  
@@ -40,5 +39,4 @@ Mentor
     href="https://www.linkedin.com/in/muhammed-basil-377b5218" target="_blank" category="HOME_SOCIAL_LINK"
     label="LINKEDIN" event="CLICK" action="CLICK">linkedIn</a> and <a href="https://twitter.com/muhammedbasilsk" target="_blank" category="HOME_SOCIAL_LINK" label="TWITTER"
       event="CLICK" action="CLICK">twitter</a>.
-  Keep learning.
 </div>
