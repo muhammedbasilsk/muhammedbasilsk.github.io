@@ -14,9 +14,24 @@ Enterpreneur: Director, Flavorlabs [Assal Malabari, Kodakara](https://assalmalab
 Amatuer radio operator: *VU3FMO*  
 Photography: [beardedbatman.clicks](https://www.instagram.com/beardedbatman.clicks/)  
 Inline skater  
-JCI member ( Former JCI kappad president, now a JCI Calicut city member)
+JCI member ( Former JCI Kappad president, now a JCI Calicut city member)
 Trainer  
 Mentor  
+
+<div id="skillmap"></div>
+
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+<script src='{{ site.baseurl }}/public/js/skill_mindmap.js'></script>
+
+
+<div
+  style="text-align:center;">
+
+  Reach out to me on  <a
+    href="https://www.linkedin.com/in/muhammed-basil-377b5218" target="_blank" category="HOME_SOCIAL_LINK"
+    label="LINKEDIN" event="CLICK" action="CLICK">linkedIn</a> and <a href="https://twitter.com/muhammedbasilsk" target="_blank" category="HOME_SOCIAL_LINK" label="TWITTER"
+      event="CLICK" action="CLICK">twitter</a>.
+</div>
 
 <div style="text-align:center;">
   <a
@@ -30,13 +45,4 @@ Mentor
       class="socialicon">
         <img src="/images/twitter-128.png" style="width:36px;">
     </a>
-</div>
-
-<div
-  style="text-align:center;">
-
-  Reach out to me on  <a
-    href="https://www.linkedin.com/in/muhammed-basil-377b5218" target="_blank" category="HOME_SOCIAL_LINK"
-    label="LINKEDIN" event="CLICK" action="CLICK">linkedIn</a> and <a href="https://twitter.com/muhammedbasilsk" target="_blank" category="HOME_SOCIAL_LINK" label="TWITTER"
-      event="CLICK" action="CLICK">twitter</a>.
 </div>

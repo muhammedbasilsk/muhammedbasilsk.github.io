@@ -1,0 +1,155 @@
+{
+	"name": "Skills",
+	"children": [
+		{
+			"name": "Programming",
+			"children": [
+				{
+					"name": "Python"
+				},
+				{
+					"name": "NodeJs"
+				},
+				{
+					"name": "Golang"
+				},
+				{
+					"name": "Shell Script"
+				},
+				{
+					"name": "Php"
+				},
+				{
+					"name": "Swift"
+				}
+			]
+		},
+		{
+			"name": "Architecture",
+			"children": [
+				{"name": "Clean Architecture"},
+				{"name": "VIPER"},
+				{"name": "MVC"}
+			]
+		},
+		{
+			"name": "Mobile app development",
+			"children": [
+				{
+					"name": "PhoneGap, Cordova"
+				},
+				{
+					"name": "React Native",
+					"children": [
+						{
+							"name": "iOS"
+						},
+						{
+							"name": "Android"
+						}
+					]
+				},
+				{
+					"name": "IOS - Swift"
+				}
+			]
+		},
+		{
+			"name": "Web development",
+			"children": [
+				{
+					"name": "Server/Backend",
+					"children": [
+						{
+							"name": "Python",
+							"children": [
+								{
+									"name": "Flask"
+								}
+							]
+						},
+						{
+							"name": "NodeJs",
+							"children": [
+								{
+									"name": "MEAN Stack"
+								}
+							]
+						},
+						{
+							"name": "Php",
+							"children": [
+								{
+									"name": "Code Igniter"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "FrontEnd",
+					"children": [
+						{
+							"name": "Javascript",
+							"children": [
+								{
+									"name": "ReactJs"
+								},
+								{
+									"name": "AngularJs"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wireframe/Prototype",
+			"children": [
+				{
+					"name": "Figma"
+				}
+			]
+		},
+		{
+			"name": "Database",
+			"children": [
+				{
+					"name": "MySQL"
+				},
+				{
+					"name": "MongoDB"
+				},
+				{
+					"name": "DynamoDB"
+				}
+			]
+		},
+		{
+			"name": "Cloud",
+			"children": [
+				{
+					"name": "AWS",
+					"children":[
+						{"name": "serverless/Lambda"},
+						{"name": "EC2"},
+						{"name": "S3"},
+						{"name": "SQS"},
+						{"name": "DynamoDB"},
+						{"name": "Kinesis"},
+						{"name": "Cloudwatch"},
+						{"name": "Cloudformation"}
+					]
+				}
+			]
+		},
+		{
+			"name": "CICD",
+			"children": [
+				{"name": "Gitlab CICD"},
+				{"name": "Jenkins"}
+			]
+		}
+	]
+}
