@@ -17,11 +17,6 @@ Inline skater
 JCI member ( Former JCI Kappad president, now a JCI Calicut city member)
 Trainer  
 Mentor  
-### Experience: 2011 - 
-[MontyCloud](https://www.montycloud.com/) - (Present) - Lead Platform Engineeer  
-[Nalashaa solutions](https://www.nalashaa.com/)  
-[QBurst](https://www.qburst.com/)  
-[Rajab logistics](https://rajablogistics.com/)
 
 <div
   style="text-align:center;">
