@@ -9,7 +9,7 @@ title: Home
 </div>
 
 
-Software professional: *Architect, design, and build*  
+Software engineer ( Lead platform engineer, [Montycloud](https://montycloud.com) )  
 Enterpreneur: Director, Flavorlabs [Assal Malabari, Kodakara](https://assalmalabari.com)  
 Amatuer radio operator: *VU3FMO*  
 Photography: [beardedbatman.clicks](https://www.instagram.com/beardedbatman.clicks/)  
@@ -17,12 +17,11 @@ Inline skater
 JCI member ( Former JCI Kappad president, now a JCI Calicut city member)
 Trainer  
 Mentor  
-
-<div id="skillmap"></div>
-
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-<script src='{{ site.baseurl }}/public/js/skill_mindmap.js'></script>
-
+### Experience: 2011 - 
+[MontyCloud](https://www.montycloud.com/) - (Present) - Lead Platform Engineeer  
+[Nalashaa solutions](https://www.nalashaa.com/)  
+[QBurst](https://www.qburst.com/)  
+[Rajab logistics](https://rajablogistics.com/)
 
 <div
   style="text-align:center;">
@@ -46,3 +45,10 @@ Mentor
         <img src="/images/twitter-128.png" style="width:36px;">
     </a>
 </div>
+
+
+### Skills
+<div id="skillmap"></div>
+
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+<script src='{{ site.baseurl }}/public/js/skill_mindmap.js'></script>
