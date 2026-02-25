@@ -1,0 +1,114 @@
+/* Global Layout & Typography */
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    transition: background-color var(--trans-base), color var(--trans-base);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+.wrapper {
+    max-width: var(--container-max);
+}
+
+.section-padding {
+    padding: var(--space-16) 0;
+}
+
+@media (min-width: 768px) {
+    .section-padding {
+        padding: var(--space-24) 0;
+    }
+}
+
+/* Typography Base */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-primary);
+    margin-bottom: var(--space-4);
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: var(--space-4);
+    color: var(--text-secondary);
+}
+
+.text-muted {
+    color: var(--text-tertiary);
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-8);
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 3px;
+    background-color: var(--accent-color);
+    border-radius: var(--radius-full);
+}
+
+/* Grid Utilities */
+.grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+}
+
+@media (min-width: 768px) {
+    .grid-2-col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Margin/Padding Utilities */
+.mt-2 {
+    margin-top: var(--space-2);
+}
+
+.mt-4 {
+    margin-top: var(--space-4);
+}
+
+.mb-4 {
+    margin-bottom: var(--space-4);
+}
+
+/* Animation Utilities */
+.opacity-0 {
+    opacity: 0;
+}
+
+.slide-up {
+    transform: translateY(30px);
+    transition: opacity var(--trans-slow), transform var(--trans-slow);
+}
+
+.slide-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

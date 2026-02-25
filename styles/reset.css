@@ -1,0 +1,79 @@
+/* CSS Reset - Minimal approach for consistent rendering */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+    font-weight: 700;
+}
+
+p,
+li,
+figcaption {
+    text-wrap: pretty;
+}
+
+/* Remove default focus styles and provide a generic focus fallback */
+:focus {
+    outline: none;
+}
+:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 4px;
+}
